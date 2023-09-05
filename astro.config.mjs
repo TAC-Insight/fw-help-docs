@@ -5,7 +5,7 @@ import starlight from "@astrojs/starlight";
 export default defineConfig({
 	integrations: [
 		starlight({
-			logo: { src: "./src/assets/logo.png" },
+			logo: { src: "./src/assets/logo-horizontal.svg", replacesTitle: true },
 			title: "Fast-Weigh Docs",
 			description: "Documentation for Fast-Weigh",
 			social: {
